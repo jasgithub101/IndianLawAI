@@ -18,13 +18,61 @@ Legal AI Assistant is a **multimodal AI agent** designed to provide **accurate l
 - **Database:** VectorDB for structured legal data  
 
 ## 📌 Installation  
+# Project Setup
 
-```bash
-git clone https://github.com/jasgithub101/indianlawai.git
+Follow these steps to set up and run the project:
+
+## 1. Clone the Repository  
+```sh
+git clone https://github.com/jasgithub101/IndianLawAI.git
+cd /IndianLawAI
+```
+
+## 2. Generate `requirements.txt`  
+```sh
 pip freeze > requirements.txt
+```
+
+## 3. Get API Key from Groq  
+Sign up at [Groq](https://www.groq.com/) and obtain an API key.
+
+## 4. Set API Key as an Environment Variable  
+### Windows (Command Prompt)  
+```sh
+set GROQ_API_KEY=<your_api_key>
+```
+### Windows (PowerShell)  
+```sh
+$env:GROQ_API_KEY="<your_api_key>"
+```
+### macOS & Linux (Bash)  
+```sh
+export GROQ_API_KEY=<your_api_key>
+```
+
+## 5. Create a Virtual Environment  
+### Windows  
+```sh
+python -m venv venv
+venv\Scripts\activate
+```
+### macOS & Linux  
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## 6. Install Dependencies  
+```sh
 pip install -r requirements.txt
+```
+
+## 7. Run the Application  
+```sh
 streamlit run legal-rag.py
 ```
+
+
 
 
 ## ⚙️ How It Works  
@@ -34,7 +82,7 @@ streamlit run legal-rag.py
 4. **AI Response Generation** – Context-aware, citation-backed answers
    
 ---
-
+## Workflow Diagram
 ![Workflow Overview](workflow.png)
 
 ---
