@@ -95,9 +95,9 @@ streamlit run legal-rag.py
 ---
 
 ## 📌 Future Improvements  
-🔹 **Expanding the Knowledge Base** to cover more legal texts and case laws  
-🔹 **Better Document Retrieval Techniques** for improved accuracy  
-🔹 **More Comprehensive Pipeline** to enhance efficiency and scalability  
+🔹 Expanding the Knowledge Base to cover more legal texts and case laws  
+🔹 Better Document Retrieval Techniques for improved accuracy  
+🔹 More Comprehensive Pipeline to enhance efficiency and scalability  
 ---
 
 ## 👨‍💻 Contributing  
