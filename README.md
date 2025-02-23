@@ -106,7 +106,7 @@ Want to contribute? Feel free to **fork the repo** and submit a PR!
 ---
 
 ## 🔗 Connect with Me  
-- **LinkedIn:** [Jaswanth Pasumarthy]([https://www.linkedin.com/in/yourprofile/](https://www.linkedin.com/in/jaswanth-pasumarthy-671a21214/))  
+**LinkedIn:** [Jaswanth Pasumarthy](https://www.linkedin.com/in/jaswanth-pasumarthy-671a21214/)
 
 ---
 
